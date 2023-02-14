@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+     background-color: #070D15;
+     background-image: url(./assets/bg-effects.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.main-content-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.container-lists {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.individual-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    padding: 15px 30px;
+    background: rgba(19, 41, 66, .19);
+    border-radius: 20px;
+    width: 1400px;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.individual-list p {
+    font-size: 14px;
+    color: #AAC4DC;
+}
+
+.individual-list p strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.overview {
+    display: flex;
+    
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 12px;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    
+
+    /* position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 14px;
+    color: #AAC4DC;
+    background: rgba(19, 41, 66, .19);
+    border-radius: 20px;
+    padding-top: 5px;
+    transition: transform 0.3s ease-in;
+ */
+}
+
+.overviewS {
+    font-size: 14px;
+    color: #AAC4DC;
+    position:absolute;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    max-height: 100%;
+    
+
+   /*  position: absolute;
+    background: black;
+    border-radius: 20px; */
+
+    /* position: absolute;
+    background: #08233D;
+    width: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    bottom: 232px;
+    text-align: center;
+    transform: translateY(197%);
+    transition: transform 0.3s ease-in; */
+
+}
+
+.overview:hover {
+    overflow: inherit;
+}

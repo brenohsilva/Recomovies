@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecoMovies</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&family=Titillium+Web:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <main class="main-content">
+            <img class="image-logo" src="./assets/otherLogo.svg" alt="logo do projeto">
+            <h1 class="primary-title">Indique seus Filmes Favoritos!</h1>
+
+            <div class="main-form">
+                <input id="input-name" class="inputs" type="text" required placeholder="Qual o seu nome? ">
+                <input id="input-movie" class="inputs" type="text" required placeholder="Qual filme você quer indicar? " onkeyup="findMovies()">
+            </div>
+
+            <div id="boxSearch">
+            <!-- <div class="boxMovieList">
+                    <div>
+                        <img class="thumbnail" src="./assets/poster.png" alt="poster thumbnail">
+                    </div>
+                    <div>
+                        <h3 class="titleBoxList">Gato de botas 2</h3>
+                        <p class="yearBoxList">2023</p>
+                    </div>
+                </div>
+
+                <div class="boxMovieList">
+                    <div>
+                        <img class="thumbnail" src="./assets/poster.png" alt="poster thumbnail">
+                    </div>
+                    <div>
+                        <h3 class="titleBoxList">Gato de botas 2</h3>
+                        <p class="yearBoxList">2023</p>
+                    </div>
+                </div> -->
+
+
+
+            </div>
+
+            <p class="orientation">Digite o nome do seu filme em inglês <br> e confirme ao lado!</p>
+            <h3 class="linkToOutherPage"><a class="linkToOutherPage" href="./list.html" target="_blank">Ver lista de filmes já indicados</a></h3>
+            <div class="up"></div>
+
+        </main>
+
+        <div id="results">
+            <img  src="./assets/initialPoster.svg" alt="">
+            <!-- <div>
+                <img class="image-result" src="./assets/poster.png" alt="">
+                <button class="button-recomedation" type="submit">Recomendar</button>
+            </div>
+
+            <div class="box-details">
+                <h2 class="title-result">Gato de Botas 2</h2>
+                <div class="details-result">
+                    <span class="year-result">Year: 2023 </span>
+                    <span class="rating-result">OMDB: 8/10</span>
+                </div>
+
+                <span class="gender-result">Gender: Action, Adventure</span>
+                <span class="sinopse-result">
+                    Sinopse:  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.
+                </span>
+            </div> -->
+
+        </div>
+
+    </div>
+    
+<script src="./script.js"></script>
+</body>
+
+</html>
