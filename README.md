@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     - APIRest
 
 - Banco de Dados:
-    -Postgres
+    - Postgres
 
 ## 💻 Projeto
 
