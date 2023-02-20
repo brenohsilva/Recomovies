@@ -25,13 +25,19 @@ Projeto completo com o Front-end em HTML, CSS e JavaScript, Back-end com NodeJs 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- NodeJs
-- Fastify
-- Prisma
-- APIRest
+- Frontend:
+    - HTML
+    - CSS
+    - JavaScript
+
+- Backend:
+    - NodeJs
+    - Fastify
+    - Prisma
+    - APIRest
+
+- Banco de Dados:
+    -Postgres
 
 ## 💻 Projeto
 
