@@ -1,8 +1,9 @@
+const noImage = './assets/noImageAvailable.png'
+const initialPoster = './assets/initialPoster.svg'
+
 const inputMovies = document.getElementById('input-movie')
 const boxMovieList = document.getElementById('boxSearch')
 const results = document.getElementById('results')
-const noImage = './assets/noImageAvailable.png'
-const initialPoster = './assets/initialPoster.svg'
 const inputNames = document.getElementById('input-name')
 const conteinerLists = document.getElementById('container-lists')
 
@@ -39,7 +40,6 @@ function displayMovieList(movies){
         } else {
             moviePoster = noImage
         }
-        
         movieTitle = movies[idx].Title
         movieYear = movies[idx].Year
         
@@ -101,9 +101,8 @@ function displayMovieDetails(details){
 /* ------------------ CARREGANDO A LISTA ----------------- */
 
 
-
 const loadLists = async () => {
-    const url_list = ' http://127.0.0.1:3333/lists/information'
+    const url_list = ' https://recomovies-backend.vercel.app/lists/information'
     const response = await fetch(url_list)
     const lists = await response.json()
     displayLists(lists.result)
@@ -131,8 +130,7 @@ function displayLists(listResult){
     }
 }
 
-
-/* GRAVANDO NO BANCO DE DADOS */
+/* -------------- GRAVANDO NO BANCO DE DADOS ------------- */
 
  async function postToAPI(name, resultToDB) {
     if (name == ''){
@@ -156,7 +154,7 @@ function displayLists(listResult){
         body: JSON.stringify(save)
     }
     
-    const resp = await fetch('http://127.0.0.1:3333/lists', option)
+    const resp = await fetch('https://recomovies-backend.vercel.app/lists', option)
     await console.log(resp.json())
     alert("Filme indicado com sucesso!!")
 
