@@ -18,7 +18,7 @@ Projeto completo com o Front-end em HTML, CSS e JavaScript, Back-end com NodeJs 
 <br>
 
 <p align="center">
-  <img alt="project" src="project Images/recomovies.JPG" width="70%" height="auto">
+  <img alt="project" src="project Images/01-recomovies.JPG" width="70%" height="auto">
 </p>
 
 ## 🚀 Tecnologias
