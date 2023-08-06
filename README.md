@@ -8,6 +8,7 @@ Projeto completo com o Front-end em HTML, CSS e JavaScript, Back-end com NodeJs 
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-autor">Contato</a>
 </p>
 
@@ -42,6 +43,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O projeto é um website cujo o objetivo é o usuario recomendar seus filmes favoritos para outros usuarios, deixando seu nome e detalhes sobre o filme, tas como titulo, gênero, nota e sinopse. a Aplicação consome a RestFull API do OMDb.
+
+## 🌐 Deploy
+<a target="_blank" href="https://recomovies.netlify.app">CLICK PARA ACESSAR!</a>
 
 
 ## :memo: Licença
